@@ -1,0 +1,43 @@
+﻿@page "/employeelist"
+
+<h3>Employee List</h3>
+
+<div class="m-2 d-flex justify-content-end">
+    <button @onclick="AddNewEmployee" class="mr-1">Add employee</button>
+</div>
+
+
+
+@if (Employees == null)
+{
+<p><em>Loading...</em></p>
+}
+else
+{
+<table>
+    <thead>
+        <tr>
+            <th>Employee name</th>
+            <th>Employee last name</th>
+            <th>Employee mobile</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ev in Employees)
+            {
+        <tr>
+            <td class="employee-name">@ev.FirstName</td>
+            <td class="employee-name">@ev.LastName </td>
+            <td class="employee-name">@ev.Mobile </td>
+            <td>
+                <a href="@($"employeedetails/{ev.EmployeeId}")" class="employee-purchase-button btn">
+                    <i class="fas fa-edit"></i>
+                </a>
+            </td>
+        </tr>
+            }
+    </tbody>
+</table>
+}
+

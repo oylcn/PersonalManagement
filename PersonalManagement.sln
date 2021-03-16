@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DBCB05C-624A-4C4B-A32A-A352F16CB42C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7E96CE80-4743-49F6-BE27-DE3D050E40FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0EB5BDD3-4C2D-47ED-8DD6-45807113723D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{586F1364-FB10-4F9E-BF6F-987279CA2A91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{96B877CD-618A-4A5A-929A-DBA126D555CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{702AE95A-31F6-4EAB-9F61-5B03EB818C2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagement.Domain", "PersonalManagement.Domain\PersonalManagement.Domain.csproj", "{967A4B8A-F92F-473B-BC7F-097D198F57A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagement.Application", "PersonalManagement.Application\PersonalManagement.Application.csproj", "{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagement.Persistence", "PersonalManagement.Persistence\PersonalManagement.Persistence.csproj", "{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagement.Api", "PersonalManagement.Api\PersonalManagement.Api.csproj", "{122BD2C4-0399-4F67-91C1-1397E31904AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalManagement.Identity", "PersonalManagement.Identity\PersonalManagement.Identity.csproj", "{5D0E59D7-8751-4237-87B7-C4158AD78C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalManagement.BlazorApp", "PersonalManagement.BlazorApp\PersonalManagement.BlazorApp.csproj", "{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalManagement.Application.UnitTest", "PersonalManagement.Application.UnitTest\PersonalManagement.Application.UnitTest.csproj", "{6E5635D3-1D94-4676-BDF9-4311126DF75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{967A4B8A-F92F-473B-BC7F-097D198F57A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967A4B8A-F92F-473B-BC7F-097D198F57A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967A4B8A-F92F-473B-BC7F-097D198F57A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967A4B8A-F92F-473B-BC7F-097D198F57A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122BD2C4-0399-4F67-91C1-1397E31904AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122BD2C4-0399-4F67-91C1-1397E31904AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122BD2C4-0399-4F67-91C1-1397E31904AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122BD2C4-0399-4F67-91C1-1397E31904AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0E59D7-8751-4237-87B7-C4158AD78C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0E59D7-8751-4237-87B7-C4158AD78C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0E59D7-8751-4237-87B7-C4158AD78C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0E59D7-8751-4237-87B7-C4158AD78C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5635D3-1D94-4676-BDF9-4311126DF75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5635D3-1D94-4676-BDF9-4311126DF75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5635D3-1D94-4676-BDF9-4311126DF75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5635D3-1D94-4676-BDF9-4311126DF75F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EB5BDD3-4C2D-47ED-8DD6-45807113723D} = {5DBCB05C-624A-4C4B-A32A-A352F16CB42C}
+		{586F1364-FB10-4F9E-BF6F-987279CA2A91} = {5DBCB05C-624A-4C4B-A32A-A352F16CB42C}
+		{96B877CD-618A-4A5A-929A-DBA126D555CD} = {5DBCB05C-624A-4C4B-A32A-A352F16CB42C}
+		{702AE95A-31F6-4EAB-9F61-5B03EB818C2F} = {5DBCB05C-624A-4C4B-A32A-A352F16CB42C}
+		{967A4B8A-F92F-473B-BC7F-097D198F57A6} = {586F1364-FB10-4F9E-BF6F-987279CA2A91}
+		{D902AA3B-B3A8-4EB6-9F07-52C696C77BFA} = {586F1364-FB10-4F9E-BF6F-987279CA2A91}
+		{BBB7912A-8C0F-4CD0-91FC-284BD0AF7871} = {702AE95A-31F6-4EAB-9F61-5B03EB818C2F}
+		{122BD2C4-0399-4F67-91C1-1397E31904AA} = {0EB5BDD3-4C2D-47ED-8DD6-45807113723D}
+		{5D0E59D7-8751-4237-87B7-C4158AD78C91} = {702AE95A-31F6-4EAB-9F61-5B03EB818C2F}
+		{8EC37F0C-137C-476F-BA2E-70BF9D8E38CA} = {96B877CD-618A-4A5A-929A-DBA126D555CD}
+		{6E5635D3-1D94-4676-BDF9-4311126DF75F} = {7E96CE80-4743-49F6-BE27-DE3D050E40FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB606D7E-E342-4301-AA9A-74BF5456D8BB}
+	EndGlobalSection
+EndGlobal
